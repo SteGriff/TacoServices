@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="afaf1e64-a8f3-4625-a75a-747bdba5bc5a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61142/LocationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LocationService.xsd" MetadataType="Schema" ID="61ade5f1-4b57-4e64-a1dc-e05fb3ae6411" SourceId="1" SourceUrl="http://localhost:61142/LocationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LocationService.wsdl" MetadataType="Wsdl" ID="7205d746-1800-4bbf-ae44-d9242412577f" SourceId="1" SourceUrl="http://localhost:61142/LocationService.svc?wsdl" />
+    <MetadataFile FileName="LocationService1.xsd" MetadataType="Schema" ID="38be2d93-5c13-44b0-9625-45af730f0f5e" SourceId="1" SourceUrl="http://localhost:61142/LocationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LocationService2.xsd" MetadataType="Schema" ID="45e8a7ed-292f-4a2f-8674-05e3f0b9d9ee" SourceId="1" SourceUrl="http://localhost:61142/LocationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LocationService.disco" MetadataType="Disco" ID="7365973c-b61d-465f-8d3d-0b9fe88badd5" SourceId="1" SourceUrl="http://localhost:61142/LocationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
