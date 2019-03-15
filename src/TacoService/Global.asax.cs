@@ -3,7 +3,7 @@ using System;
 using System.ServiceModel.Activation;
 using System.Web.Routing;
 
-namespace Taco.Services.Order
+namespace Taco.Services.Location
 {
     public class Global : System.Web.HttpApplication
     {

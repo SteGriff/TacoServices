@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace TacoServices.Common
 {
     [DataContract]
-    [SwaggerWcfDefinition(ExternalDocsUrl = "http://en.wikipedia.org/wiki/Book", ExternalDocsDescription = "A food order for a customer at a given location")]
+    [SwaggerWcfDefinition(ExternalDocsUrl = "http://en.wikipedia.org/wiki/Taco", ExternalDocsDescription = "A food order for a customer at a given location")]
     public class OrderRequest
     {
         [DataMember]
