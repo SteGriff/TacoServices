@@ -87,6 +87,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\taco-location - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\taco-location - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -95,10 +97,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Taco.Services.Order\Taco.Services.Order.csproj">
-      <Project>{BED82B34-46E4-42B5-BC4C-8F5283352D83}</Project>
-      <Name>Taco.Services.Order</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TacoServices.Common\TacoServices.Common.csproj">
       <Project>{4038F143-44B2-47D8-8572-A499FBF41E9F}</Project>
       <Name>TacoServices.Common</Name>
